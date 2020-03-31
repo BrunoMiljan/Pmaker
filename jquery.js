@@ -1,0 +1,20 @@
+$(document).ready(function(){
+    $(".c1").click(function(){
+        $(".html").toggleClass("active");
+    });
+    $(".c2").click(function(){
+        $(".css").toggleClass("active");
+    });
+    $(".c3").click(function(){
+        $(".js").toggleClass("active");
+    });
+    $(".c4").click(function(){
+        $(".jquery").toggleClass("active");
+    });
+    $(".c5").click(function(){
+        $(".php").toggleClass("active");
+    });
+    $(".c6").click(function(){
+        $(".wp").toggleClass("active");
+    });
+});
